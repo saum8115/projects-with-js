@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital clock</title>
+    <title>shopping cart</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="clock-container">
-        <h1 id="clock">00:00:00 AM</h1>
-        <div class="button">
-            <button id="toggleFormat">Switch to 24-Hour</button>
-            <button id="toggleTheme">Toggle Dark/Light</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        <h1>My E-commerce Store</h1>
+      </header>
+    
+      <section class="products">
+        <h2>Products</h2>
+        <div id="productList"></div>
+      </section>
+    
+      <section class="cart">
+        <h2>Your Cart</h2>
+        <div id="cartItems"></div>
+        <p><strong>Total: $<span id="total">0</span></strong></p>
+      </section>
+
+
+    <script src="hello.js"></script>
 </body>
 </html>
