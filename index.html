@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Simple To-Do App</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>To-Do List</h2>
-    <input type="text" id="taskInput" placeholder="Enter your task">
-    <button id="addTaskBtn">Add Task</button>
-    <ul id="taskList"></ul>
-  </div>
-  <script src="app.js"></script>
+    <div class="clock-container">
+        <h1 id="clock">00:00:00 AM</h1>
+        <div class="button">
+            <button id="toggleFormat">Switch to 24-Hour</button>
+            <button id="toggleTheme">Toggle Dark/Light</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
