@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+button{
+    color: #000;
+}
